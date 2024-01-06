@@ -1,0 +1,6 @@
+name: 'Course API'
+type: module
+description: 'Provides an API for listing courses.'
+package: Custom-api
+core_version_requirement: ^8 || ^9 || ^10
+

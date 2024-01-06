@@ -1,0 +1,6 @@
+name: 'Custom Enrollment'
+type: module
+description: 'Custom module for student enrollments and progress tracking.'
+core_version_requirement: ^8 || ^9 || ^10
+package: Custom
+version: 1.0

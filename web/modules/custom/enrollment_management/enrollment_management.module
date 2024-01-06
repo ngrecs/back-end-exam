@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * Implements hook_help().
+ */
+function enrollment_management_help($route_name, $route_match) {
+  switch ($route_name) {
+    case 'help.page.enrollment_management':
+      return '<p>' . t('Provides enrollment management functionality.') . '</p>';
+  }
+}
+
+?>

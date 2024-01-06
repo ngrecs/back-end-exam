@@ -1,0 +1,22 @@
+uuid: 2e31e676-bf9c-471b-8865-d7ea72728c7f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_contact_info
+    - node.type.instructor
+  module:
+    - text
+id: node.instructor.field_contact_info
+field_name: field_contact_info
+entity_type: node
+bundle: instructor
+label: 'Contact info'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

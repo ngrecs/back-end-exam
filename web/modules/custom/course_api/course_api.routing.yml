@@ -1,0 +1,7 @@
+course_api.api:
+  path: '/api/courses'
+  defaults:
+    _controller: '\Drupal\course_api\Controller\CourseApiController::getCourses'
+    _title: 'List of Courses'
+  requirements:
+    _permission: 'access content'

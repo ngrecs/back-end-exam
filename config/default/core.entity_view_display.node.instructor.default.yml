@@ -1,0 +1,52 @@
+uuid: 4d5a3872-2354-413b-8cc5-129d8d508c7a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.instructor.body
+    - field.field.node.instructor.field_contact_info
+    - field.field.node.instructor.field_instructor_s_bio
+    - field.field.node.instructor.field_instructor_s_name
+    - node.type.instructor
+  module:
+    - text
+    - user
+id: node.instructor.default
+targetEntityType: node
+bundle: instructor
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_contact_info:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_instructor_s_bio:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_instructor_s_name:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }
